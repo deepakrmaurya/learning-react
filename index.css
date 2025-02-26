@@ -22,3 +22,27 @@
   padding-right: 10px;
   margin: 5px;
 }
+
+.res-card {
+  padding: 5px;
+  width: 200px;
+}
+
+.res-card:hover {
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search {
+  padding-left: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}

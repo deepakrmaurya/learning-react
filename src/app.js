@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+import Header from "./components/Header";
+import Body from "./components/Body";
+
 //Previous Episodes Practice
 // import { createRoot } from "react-dom/client";
 
@@ -84,44 +88,13 @@ import ReactDOM from "react-dom/client";
 //   </div>
 // );
 
-const Header = () => (
-  <div className="header">
-    <div className="logo-container">
-      <img
-        className="logo"
-        src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?nwm=1&nws=1&industry=snacks&sf=&txt_keyword=All"
-      ></img>
-      {/* <h1>Header</h1> */}
-    </div>
-    <div className="nav-items">
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Contact Us</li>
-        <li>Cart</li>
-      </ul>
-    </div>
-  </div>
-);
-
-const Body = () => (
-  <div className="body">
-    <h1>Body</h1>
-    <div className="search">Search</div>
-  </div>
-);
-
-const Footer = () => (
-  <div>
-    <h1>Footer</h1>
-  </div>
-);
+const Footer = () => <div>{/* <h1>Footer</h1> */}</div>;
 
 const AppLayout = () => (
   <div>
     <Header />
     <h1 className="app" id="headingText">
-      Hello this is react
+      {/* Hello this is react */}
     </h1>
     <Body />
     <Footer />
